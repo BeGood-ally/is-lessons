@@ -33,7 +33,7 @@ const filterClickHandler = function (e) {
             $tdId.innerHTML = element.id;
             $tdNumber.innerHTML = element.name;
             $tr.append($tdId, $tdNumber);
-            $tbody.appendChild($tr);
+            $tbody.appendChild($tr);;
         }
     }
 };
